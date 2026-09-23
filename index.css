@@ -48,3 +48,38 @@ button:active{
     color:black;
     transform: scale(1,1);
 }
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Prevent large fixed elements */
+    section {
+        max-width: 100%;
+    }
+
+    /* Common layout fix */
+    .row,
+    .flex {
+        flex-wrap: wrap;
+    }
+}
