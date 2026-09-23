@@ -1,0 +1,332 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #FAFAFA;
+    color: #f8fafc;
+}
+*{  
+    box-sizing: border-box;
+}
+#fullnav{
+    height:1100px;
+    background-color: #FAFAFA;
+}
+#nav{
+    height: 40px;
+    background-color: #FAFAFA;
+    font-family:'Poppins' , sans-serif;
+    position: fixed;
+    top:0px;
+    width: 100vw;
+    z-index: 2;
+    margin-top: 0px;
+}
+
+#write{
+    position: relative;
+    top: 60px;
+}
+span{
+    color: #00ccbb;
+    text-shadow: 0 0 7px #00eedd;
+}
+
+#nav ul {
+    background-color: #00ccbb;
+    margin-top:0px;
+    display: inline-block;
+    padding: 0px 0px 0px 3px;
+    font-size: 26px;
+     border: 3px solid black;
+    height:40px;
+     background-color:6667A;
+    list-style-type: none;
+    display: flex;   
+}
+#nav ul a{
+    color: #f8fafc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navelement{
+    
+padding-bottom:3px;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.navelement:hover {
+border-radius:3px;
+transform: scale(1.1,1.1);
+padding-bottom:3px;
+color: #0f172a;
+
+}
+
+.navelement:active{
+    transform: scale(1,1);
+}
+a{
+    color: black;
+ text-decoration: none;
+ font-weight: 500;
+}
+
+#imgbg{
+    z-index: 0;
+    background: linear-gradient(to bottom,rgb(18, 99, 99) 0%, white 50%, rgb(18, 99, 99) 100%);
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    
+    z-index:1;
+
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+#img{
+    border-radius: 50%;
+    height: 340px;
+    width: 340px;
+}
+#bord{
+    display: flex;
+    border-top:2px solid black ;
+    display: inline-block;
+    margin-top: 1px;
+    z-index: 1;
+    width:100%;
+    height: 500px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    top: 150px;
+}
+#aboutme{
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #00bbaa;
+    box-shadow: 0 0px 4px 4px black ;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 1;
+    width: 500px;
+    height: 400px;
+    color: black;
+    border-radius: 8px;
+    
+
+    /* justify-content: center;
+    margin-right: 100px;
+    margin-top: 180px; */
+}
+#bord img{
+display: inline-block;
+position: relative;
+left: 700px;
+top: 50px;
+}
+#ul{
+    list-style-type: square;
+}
+
+#navpage{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    display: inline-block;
+    padding:30px;
+    line-height:1;
+    height: 465px;
+    width: 50vw;
+    color: rgb(10, 16, 20);
+}
+
+#but{
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:10px;
+    
+    border: 2px solid black;
+    padding: 8px;
+    background-color:#00ccbb;
+
+}
+#but:hover{
+    background-color:#00ddcc;
+   font-style:bold;
+   transform: scale(1.1,1.1);
+}
+
+#but2:hover{
+    transform: scale(1.1,1.1);
+    font-style:bold;
+ background-color:#00ddcc;
+
+} 
+#but:active{
+     transform: scale(1,1);
+}
+#but2:active{
+    
+    transform: scale(1,1);
+}
+#but2{
+     border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left:30px;
+    background-color:#00ccbb;
+    border: 2px solid black;
+    padding: 8px;
+}
+#skill{
+    border-top: 3px solid black;
+    z-index:-1;
+width: 100%;
+height:500px;
+background-color: #FAFAFA;
+text-align: center;
+}
+#skill h3{
+    position: relative;
+    top: 30px;
+    width: 170px;
+    color: black;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: inline-block;
+     background-color: #00bbaa;
+}
+#skillblock{
+    width: 100%;
+    height: 240px;
+ background-color: #00ccbb;
+ 
+ border: 2px solid black;
+    border-radius:8px;
+    position: relative;
+    top:100px;
+
+ }
+ .sk{
+    width: 200px;
+    height: 200px;
+    border-radius:6px;
+    margin: 5px 5px 5px 5px;
+   border-left: 2px solid rgb(66, 62, 62);
+    border-bottom: 2px solid rgb(107, 102, 102);
+    
+ }
+ 
+ @keyframes animate {
+    from{
+  
+left: 0px;    }
+    to{
+        left:115px;
+    }
+    
+ }
+
+ #sk2{
+    padding:5px 5px 3px 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+ }
+ #py{
+    background-image: url(py.jpg);
+    background-size: cover;
+      animation-name: animate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in; 
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+ }
+ #html{
+     background-image: url(html.png);
+    background-size:cover;
+      animation-name: animate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in; 
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+ }
+ #cpp{
+     background-image: url(cpp\ jpeg.png);
+    background-size: cover;
+      animation-name: animate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in; 
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+ }
+ #css{
+     background-image: url(download.png);
+    background-size: cover;
+      animation-name: animate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in; 
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+ }
+ #contact{
+    display: flex;
+    text-align: center;
+    border: 2px solid black;
+    display:inline-block;
+    font-weight: 600;
+    width: 100%;
+    height: 300px;
+   background-color: #0f172a;
+  }
+  #foot h2{
+     color: black;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 6px;
+    display: inline-block;
+ background-color: #00bbaa;  }
+  
+  #cardd{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    display: inline-block;
+    width: 100%;
+    height: 350px;
+    background-color: #FAFAFA; 
+}
+  .cardbox{
+    margin-left: 100px;
+    padding-left: 10px;
+    margin-top: 40px;
+    width: 200px;
+    border-radius: 5px;
+    height: 250px;
+    font-weight:600;
+    display: inline-block;
+    box-shadow: 0 0px 4px 4px rgb(24, 23, 23);
+    background-color: #00ccbb;
+color:#0f172a;
+  }
+  .cardbox h3{
+    color: whitesmoke;
+  }

@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+#full{
+    font-size: 2rem;
+    padding-top: 50px;
+    width: 100vw;
+    height: 650px;
+    background-color: #00ccbb;
+    justify-content: center;
+    text-align: center;
+}
+#full p{
+    font-weight: 650;
+}
+#full button{
+        font-size: 1.6rem;
+    color: black;
+    padding:3px;
+    box-shadow: 0 0 2px 2px #141414;
+    border-radius:10px;
+    font-weight: 650;
+    display: inline-block;
+    background-color: #FAFAFA;
+    width: 200px;
+    height: 50px;
+}
+span{
+    color: #FAFAFA;
+    text-shadow: 0 0 10px #fcfffd;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button:hover {
+    transform: scale(1.1,1.1);
+    color: aqua;
+    text-shadow: 0 0 10px #141414;
+
+
+}
+button:active{
+    color:black;
+    transform: scale(1,1);
+}
